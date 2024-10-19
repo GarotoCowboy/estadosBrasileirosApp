@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome_Estado"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tSigla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sigla"
+        android:textSize="30dp"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tCapital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capital:"
+        android:textSize="30dp"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tRegiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Região: "
+        android:textSize="30dp"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"/>
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/estado_08_goias"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descricao"
+        android:textSize="25dp"
+        android:layout_gravity="left"
+        android:textAlignment="inherit"
+        android:layout_margin="10dp"/>
+</LinearLayout>
